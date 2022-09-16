@@ -44,7 +44,7 @@ table {
 	border-spacing: 0;
 }
 
-
+   /* My Code */
 html {
     box-sizing: border-box;
 }
@@ -142,7 +142,7 @@ header {
     width: 100%;
     text-align: center;
 }
-.container > img {
+.mobile-curve {
     display: block;
     width: 100%;
 }
@@ -325,4 +325,99 @@ li {
 }
 #ig {
     padding: 0.4rem 0.47rem;
+}
+
+@media screen and (max-width: 425px) {
+    .desktop-curve {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 426px) {
+    .mobile-curve {
+        display: none;
+    }
+    .desktop-curve {
+        width: 100%;
+        display: block;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    br {
+        display: none;
+    }
+    header {
+        padding-top: 2.5rem;
+    }
+    .nav {
+        padding: 0 3.5rem;
+    }
+    .header-logo > img {
+        width: 10rem;
+    }
+    .nav-links {
+        font-size: 1.2rem;
+        gap: 2.5rem;
+        padding-top: 0.8rem;
+    }
+    .header-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 0;
+    }
+    .img-1 {
+        order: 2;
+        margin: 0;
+    }
+    .img-1 > img {
+        width: 85%;
+    }
+    .header-write-up {
+        padding-left: 3.5rem;
+        text-align: left;
+    }
+    .header-write-up > h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        padding: 0;
+    }
+    .header-write-up > p {
+        font-size: 1.2rem;
+        padding: 0 1rem 0 0;
+        margin-bottom: 1.2rem;
+    }
+    .header-write-up > input {
+        margin-left: 0;
+        display: inline-block;
+        width: 47.5%;
+        margin-right: 0.6rem;
+    }
+    .header-write-up > button {
+        margin-left: 0;
+        display: inline-block;
+        width: 32.5%;
+    }
+    .part-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 2rem;
+        padding-left: 4rem;
+    }
+    #part-1 {
+        text-align: left;
+    }
+    #part-1 > h2 {
+        font-size: 2.5rem;
+    }
+    .img-2 {
+        order: 2;
+        margin: 0;
+    }
+    .img-2 > img {
+        width: 85%;
+    }
 }
