@@ -455,7 +455,7 @@ li {
     }
     .part-2 > section > p {
         font-size: 1.15rem;
-        margin-right: 4rem;
+        margin-right: 3.7rem;
     }
     .sign-up > input {
         padding: 1.1rem;
@@ -469,4 +469,34 @@ li {
         width: 13.5rem;
         font-size: 0.85rem;
     }
+    footer {
+        padding-top: 6.5rem;
+        padding-bottom: 3rem;
+    }
+    .footer-logo {
+        margin-left: 2rem
+    }
+    .footer-logo > img {
+        width: 12rem;
+    }
+    .footer-details {
+        display: grid;
+        grid-template-columns: 1.3fr 0.7fr 0.7fr 1fr;
+        gap: 2.5rem;
+        margin-left: 2rem;
+    }
+    .phone {
+        margin-bottom: 1.4rem;
+        font-size: 1.15rem;
+    }
+    .email {font-size: 1.15rem;}
+    .list-1 {
+        margin: 0;
+        font-size: 1.15rem;
+    }
+    .list-2 {
+        margin: 0;
+        font-size: 1.15rem;
+    }
+    .icons {text-align: left;}
 }
