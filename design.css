@@ -83,6 +83,10 @@ header {
     font-weight: 400;
     color: hsl(243, 87%, 12%);
 }
+.nav-links > li:hover {
+    cursor: pointer;
+    opacity: 0.85;
+}
 
 .header-info {
     text-align: center;
@@ -136,7 +140,10 @@ header {
     background-color: hsl(224, 93%, 58%);
     color: white;
 }
-
+.header-write-up > button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
 
 .container {
     width: 100%;
@@ -189,6 +196,9 @@ header {
     font-size: 0.8rem;
     text-align: center;
     /* text-decoration: underline; */
+}
+.link:hover {
+    cursor: pointer;
 }
 article {
     background-color: white;
@@ -266,7 +276,10 @@ h4 {
     background-color: hsl(224, 93%, 58%);
     color: white;
 }
-
+.sign-up > button:hover {
+    cursor: pointer;
+    filter: brightness(120%);
+}
 footer {
     background-color: hsl(243, 87%, 12%);
     font-family: 'Open Sans', sans-serif;
@@ -301,8 +314,12 @@ footer {
     margin-left: 2rem;
     margin-bottom: 4rem;
 }
-li {
+.list-1 > li, .list-2 > li {
     margin-bottom: 1.5rem;
+}
+.list-1 > li:hover, .list-2 > li:hover {
+    cursor: pointer;
+    color: hsl(224, 93%, 58%);
 }
 .icons {
     text-align: center;
@@ -314,8 +331,8 @@ li {
 }
 .icons > i:hover {
     cursor: pointer;
-    color: hsl(322, 100%, 66%);
-    border-color: hsl(322, 100%, 66%);
+    color: hsl(224, 93%, 58%);
+    border-color: hsl(224, 93%, 58%);
 }
 #fb {
     padding: 0.4rem 0.6rem;
