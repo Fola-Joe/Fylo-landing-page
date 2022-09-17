@@ -349,7 +349,7 @@ li {
         display: none;
     }
     header {
-        padding-top: 2.5rem;
+        padding-top: 1.5rem;
     }
     .nav {
         padding: 0 3.5rem;
@@ -392,17 +392,17 @@ li {
     .header-write-up > input {
         margin-left: 0;
         display: inline-block;
-        width: 47.5%;
+        width: 20rem;
         margin-right: 0.6rem;
     }
     .header-write-up > button {
         margin-left: 0;
         display: inline-block;
-        width: 32.5%;
+        width: 13rem;
     }
     .part-1 {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1.1fr 0.9fr;
         align-items: center;
         gap: 2rem;
         padding-left: 4rem;
@@ -411,13 +411,62 @@ li {
         text-align: left;
     }
     #part-1 > h2 {
-        font-size: 2.5rem;
+        font-size: 2.8rem;
     }
     .img-2 {
         order: 2;
         margin: 0;
     }
     .img-2 > img {
-        width: 85%;
+        width: 90%;
+    }
+    .line-1, .line-2 {
+        font-size: 1.2rem;
+        margin-right: 5rem;
+    }
+    .see-how {
+        margin-top: 1rem;
+    }
+    .link {
+        text-align: left;
+        font-size: 1.2rem;
+    }
+    article {
+        margin: 0 21rem 0 0;
+    }
+    blockquote {
+        font-size: 1.05rem;
+        margin-right: 1rem;
+    }
+    .avatar-img > img {
+        width: 2.5rem;
+    }
+    h3 {font-size: 0.95rem;}
+    h4 {font-size: 0.7rem;}
+    .part-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+        text-align: left;
+        padding: 6rem 4rem 3rem;
+    }
+    .part-2 > section > h2 {
+        font-size: 2.2rem;
+    }
+    .part-2 > section > p {
+        font-size: 1.15rem;
+        margin-right: 4rem;
+    }
+    .sign-up > input {
+        padding: 1.1rem;
+        margin-bottom: 1.2rem;
+        margin-left: 8rem;
+        width: 30rem;
+    }
+    .sign-up > button {
+        padding: 1.1rem;
+        margin-left: 8rem;
+        width: 13.5rem;
+        font-size: 0.85rem;
     }
 }
