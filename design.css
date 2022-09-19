@@ -123,6 +123,7 @@ header {
     margin-bottom: 1rem;
     border-radius: 4px;
     border: 1px solid hsla(243, 87%, 12%, 0.6);
+    box-shadow: 2px 4px 15px -9px rgb(0 0 0 / 15%);
 }
 ::placeholder {
     color: hsl(0, 0%, 75%);
@@ -139,6 +140,7 @@ header {
     font-size: 1rem;
     background-color: hsl(224, 93%, 58%);
     color: white;
+    box-shadow: 2px 4px 17px 2px rgb(0 0 0 / 15%);
 }
 .header-write-up > button:hover {
     cursor: pointer;
@@ -190,12 +192,17 @@ header {
     margin-top: 2.5rem;
     margin-bottom: 2rem;
     text-decoration: underline;
+    text-decoration-color: #3DA08F;
+    text-underline-offset: 0.5rem;
+    /* border-bottom: 1px solid #3DA08F; */
 }
 .link {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.8rem;
     text-align: center;
-    /* text-decoration: underline; */
+    /* text-decoration: line-through; */
+    color: #3DA08F;
+    /* border-bottom: 1px solid #3DA08F; */
 }
 .link:hover {
     cursor: pointer;
@@ -205,6 +212,8 @@ article {
     text-align: left;
     margin: 0 1.8rem;
     padding: 1.5rem 0.8rem 1.5rem 1.5rem ;
+    border-radius: 4px;
+    box-shadow: 2px 4px 17px 1px rgb(0 0 0 / 15%);
 }
 blockquote {
     font-family: 'Open Sans', sans-serif;
@@ -262,6 +271,7 @@ h4 {
     border: none;
     border-radius: 3px;
     margin-bottom: 0.6rem;
+    box-shadow: 2px 4px 17px 1px rgb(0 0 0 / 15%);
 }
 .sign-up > button {
     font-family: 'Raleway', sans-serif;
@@ -275,6 +285,7 @@ h4 {
     font-weight: 700;
     background-color: hsl(224, 93%, 58%);
     color: white;
+    box-shadow: 2px 5px 17px 3px rgb(0 0 0 / 15%);
 }
 .sign-up > button:hover {
     cursor: pointer;
@@ -443,6 +454,7 @@ footer {
     }
     .see-how {
         margin-top: 1rem;
+        justify-content: flex-start;
     }
     .link {
         text-align: left;
