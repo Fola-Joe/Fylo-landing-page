@@ -45,12 +45,8 @@ table {
 }
 
    /* My Code */
-html {
-    box-sizing: border-box;
-}
-body {
-    min-height: 100vh;
-}
+html {box-sizing: border-box;}
+body {min-height: 100vh;}
 .wrapper {
     display: flex;
     justify-content: center;
@@ -72,9 +68,7 @@ header {
     padding: 0 2rem;
     margin-bottom: 5rem;
 }
-.header-logo > img {
-    width: 5rem;
-}
+.header-logo > img {width: 5rem;}
 .nav-links {
     display: flex;
     padding-top: 0.25rem;
@@ -87,18 +81,12 @@ header {
     cursor: pointer;
     opacity: 0.85;
 }
-
 .header-info {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    /* max-width: 375px; */
 }
-.img-1 {
-    margin-bottom: 2.5rem;
-}
-.img-1> img {
-    width: 80%;
-}
+.img-1 {margin-bottom: 2.5rem;}
+.img-1> img {width: 80%;}
 .header-write-up > h1 {
     font-size: 1.5rem;
     font-weight: 700;
@@ -125,9 +113,7 @@ header {
     border: 1px solid hsla(243, 87%, 12%, 0.6);
     box-shadow: 2px 4px 15px -9px rgb(0 0 0 / 15%);
 }
-::placeholder {
-    color: hsl(0, 0%, 75%);
-}
+::placeholder {color: hsl(0, 0%, 75%);}
 .header-write-up > button {
     font-family: 'Raleway', sans-serif;
     display: block;
@@ -146,7 +132,6 @@ header {
     cursor: pointer;
     opacity: 0.7;
 }
-
 .container {
     width: 100%;
     text-align: center;
@@ -157,15 +142,10 @@ header {
 }
 .part-1 {
     background-color:  hsl(240, 75%, 98%);
-    /* max-width: 375px; */
     padding: 2.2rem 1.2rem 5rem;
 }
-.img-2 {
-    margin-bottom: 5rem;
-}
-.img-2 > img {
-    width: 94%;
-}
+.img-2 {margin-bottom: 5rem;}
+.img-2 > img {width: 94%;}
 #part-1 > h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
@@ -181,9 +161,7 @@ header {
     line-height: 1.4;
     color: hsla(243, 87%, 12%, 0.9);
 }
-.line-1 {
-    margin-bottom: 1rem;
-}
+.line-1 {margin-bottom: 1rem;}
 .see-how {
     display: flex;
     align-items: center;
@@ -201,9 +179,7 @@ header {
     text-align: center;
     color: #3DA08F;
 }
-.link:hover {
-    cursor: pointer;
-}
+.link:hover {cursor: pointer;}
 article {
     background-color: white;
     text-align: left;
@@ -240,7 +216,6 @@ h4 {
     font-size: 0.45rem;
     color: hsl(243, 87%, 12%);
 }
-
 .part-2 {
     background-color:  hsl(238, 22%, 44%);
     padding: 3.5rem 2.8rem 4.5rem 1.8rem;
@@ -322,16 +297,12 @@ footer {
     margin-left: 2rem;
     margin-bottom: 4rem;
 }
-.list-1 > li, .list-2 > li {
-    margin-bottom: 1.5rem;
-}
+.list-1 > li, .list-2 > li {margin-bottom: 1.5rem;}
 .list-1 > li:hover, .list-2 > li:hover {
     cursor: pointer;
     color: hsl(224, 93%, 58%);
 }
-.icons {
-    text-align: center;
-}
+.icons {text-align: center;}
 .icons > i {
     border: 1px solid white;
     border-radius: 50%;
@@ -364,28 +335,16 @@ footer {
 }
 
 @media screen and (min-width: 426px) and (max-width: 545px) {
-    .header-logo > img {
-        width: 6rem;
-    }
-    .header-write-up > h1 {
-        font-size: 1.8rem;
-    }
-    .header-write-up > p {
-        font-size: 1.1rem;
-    }
+    .header-logo > img {width: 6rem;}
+    .header-write-up > h1 {font-size: 1.8rem;}
+    .header-write-up > p {font-size: 1.1rem;}
     .header-write-up > button {
         width: 50%;
         margin-left: 25%;
     }
-    #part-1 > h2 {
-        font-size: 1.4rem;
-    }
-    article {
-        margin: 0 15% 0;
-    }
-    .part-2 > section > h2 {
-        font-size: 1.5rem;
-    }
+    #part-1 > h2 {font-size: 1.4rem;}
+    article {margin: 0 15% 0;}
+    .part-2 > section > h2 {font-size: 1.5rem;}
     .sign-up > button {
         width: 50%;
         margin-left: 25%;
@@ -394,21 +353,13 @@ footer {
         display: inline-block;
         width: 40%;
     }
-    .list-2 {
-        align-items: flex-start;
-    }
+    .list-2 {align-items: flex-start;}
 }
 
 @media screen and (min-width: 546px) and (max-width: 768px) {
-    header {
-        padding-top: 1rem;
-    }
-    .nav {
-        padding: 0 2rem;
-    }
-    .header-logo > img {
-        width: 6.5rem;
-    }
+    header {padding-top: 1rem;}
+    .nav {padding: 0 2rem;}
+    .header-logo > img {width: 6.5rem;}
     .nav-links {
         font-size: 0.8rem;
         gap: 2rem;
@@ -420,13 +371,8 @@ footer {
         align-items: center;
         gap: 0;
     }
-    .img-1 {
-        order: 2;
-        margin: 0;
-    }
-    .img-1 > img {
-        width: 85%;
-    }
+    .img-1 {order: 2; margin: 0;}
+    .img-1 > img {width: 85%;}
     .header-write-up {
         padding-left: 2rem;
         text-align: left;
@@ -463,9 +409,7 @@ footer {
     #part-1 {text-align: left;}
     #part-1 > h2 {font-size: 1.2rem;}
     .img-2 {order: 2; margin: 0;}
-    .img-2 > img {
-        width: 100%;
-    }
+    .img-2 > img {width: 100%;}
     .line-1, .line-2 {
         font-size: 0.65rem;
         margin-right: 5rem;
@@ -478,16 +422,12 @@ footer {
         text-align: left;
         font-size: 0.7rem;
     }
-    article {
-        margin: 0 20% 0 0; 
-    }
+    article {margin: 0 20% 0 0;}
     blockquote {
         font-size: 0.5rem;
         margin-right: 0.85rem;
     }
-    .avatar-img > img {
-        width: 1.5rem;
-    }
+    .avatar-img > img {width: 1.5rem;}
     h3 {font-size: 0.55rem;}
     h4 {font-size: 0.4rem;}
     .part-2{
@@ -497,9 +437,7 @@ footer {
         text-align: left;
         padding: 6rem 2rem 3rem;
     }
-    .part-2 > section > h2 {
-        font-size: 1.5rem;
-    }
+    .part-2 > section > h2 {font-size: 1.5rem;}
     .part-2 > section > p {
         font-size: 0.75rem;
         margin-right: 3.4rem;
@@ -508,7 +446,7 @@ footer {
         padding: 0.9rem;
         margin-bottom: 1.2rem;
         margin-left: 0;
-        width: 80%; /**/
+        width: 80%;
     }
     .sign-up > button {
         padding: 0.9rem;
@@ -516,28 +454,18 @@ footer {
         width: 11.5rem;
         font-size: 0.8rem;
     }
-    .footer-logo > img {
-        width: 9rem;
-    }
+    .footer-logo > img {width: 9rem;}
     .list-1, .list-2 {
         display: inline-block;
         width: 40%;
     }
-    .list-2 {
-        align-items: flex-start;
-    }
+    .list-2 {align-items: flex-start;}
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    header {
-        padding-top: 1.5rem;
-    }
-    .nav {
-        padding: 0 3.5rem;
-    }
-    .header-logo > img {
-        width: 8.5rem;
-    }
+    header {padding-top: 1.5rem;}
+    .nav {padding: 0 3.5rem;}
+    .header-logo > img {width: 8.5rem;}
     .nav-links {
         font-size: 1rem;
         gap: 2rem;
@@ -549,13 +477,8 @@ footer {
         align-items: center;
         gap: 0;
     }
-    .img-1 {
-        order: 2;
-        margin: 0;
-    }
-    .img-1 > img {
-        width: 85%;
-    }
+    .img-1 {order: 2; margin: 0;}
+    .img-1 > img {width: 85%;}
     .header-write-up {
         padding-left: 3.5rem;
         text-align: left;
@@ -592,9 +515,7 @@ footer {
     #part-1 {text-align: left;}
     #part-1 > h2 {font-size: 1.7rem;}
     .img-2 {order: 2; margin: 0;}
-    .img-2 > img {
-        width: 100%;
-    }
+    .img-2 > img {width: 100%;}
     .line-1, .line-2 {
         font-size: 0.8rem;
         margin-right: 5rem;
@@ -607,16 +528,12 @@ footer {
         text-align: left;
         font-size: 0.9rem;
     }
-    article {
-        margin: 0 25% 0 0; 
-    }
+    article {margin: 0 25% 0 0;}
     blockquote {
         font-size: 0.75rem;
         margin-right: 1rem;
     }
-    .avatar-img > img {
-        width: 2rem;
-    }
+    .avatar-img > img {width: 2rem;}
     h3 {font-size: 0.7rem;}
     h4 {font-size: 0.5rem;}
     .part-2{
@@ -626,9 +543,7 @@ footer {
         text-align: left;
         padding: 6rem 4rem 3rem;
     }
-    .part-2 > section > h2 {
-        font-size: 2rem;
-    }
+    .part-2 > section > h2 {font-size: 2rem;}
     .part-2 > section > p {
         font-size: 1rem;
         margin-right: 3.4rem;
@@ -649,12 +564,8 @@ footer {
         padding-top: 5.5rem;
         padding-bottom: 3rem;
     }
-    .footer-logo {
-        margin-left: 2rem
-    }
-    .footer-logo > img {
-        width: 10rem;
-    }
+    .footer-logo {margin-left: 2rem}
+    .footer-logo > img {width: 10rem;}
     .footer-details {
         display: grid;
         grid-template-columns: 1.4fr 0.5fr 0.5fr 1fr;
@@ -666,33 +577,15 @@ footer {
         font-size: 1.05rem;
     }
     .email {font-size: 1.05rem;}
-    .list-1 {
-        margin: 0;
-        font-size: 1.05rem;
-    }
-    .list-2 {
-        margin: 0;
-        font-size: 1.05rem;
-    }
+    .list-1 {margin: 0; font-size: 1.05rem;}
+    .list-2 {margin: 0; font-size: 1.05rem;}
     .icons {text-align: left;}
 }
 
-
-
-
 @media screen and (min-width: 1025px) {
-    br {
-        display: none;
-    }
-    header {
-        padding-top: 1.5rem;
-    }
-    .nav {
-        padding: 0 3.5rem;
-    }
-    .header-logo > img {
-        width: 10rem;
-    }
+    header {padding-top: 1.5rem;}
+    .nav {padding: 0 3.5rem;}
+    .header-logo > img {width: 10rem;}
     .nav-links {
         font-size: 1.2rem;
         gap: 2.5rem;
@@ -704,13 +597,8 @@ footer {
         align-items: center;
         gap: 0;
     }
-    .img-1 {
-        order: 2;
-        margin: 0;
-    }
-    .img-1 > img {
-        width: 85%;
-    }
+    .img-1 {order: 2; margin: 0;}
+    .img-1 > img {width: 85%;}
     .header-write-up {
         padding-left: 3.5rem;
         text-align: left;
@@ -743,42 +631,19 @@ footer {
         gap: 2rem;
         padding-left: 4rem;
     }
-    #part-1 {
-        text-align: left;
-    }
-    #part-1 > h2 {
-        font-size: 2.6rem;
-    }
-    .img-2 {
-        order: 2;
-        margin: 0;
-    }
-    .img-2 > img {
-        width: 90%;
-    }
-    .line-1, .line-2 {
-        font-size: 1.2rem;
-        margin-right: 5rem;
-    }
-    .see-how {
-        margin-top: 1rem;
-        justify-content: flex-start;
-    }
-    .link {
-        text-align: left;
-        font-size: 1.2rem;
-    }
-    article {
-        margin: 0 42.5% 0 0;
-        padding-left: 2.5rem;
-    }
+    #part-1 {text-align: left;}
+    #part-1 > h2 {font-size: 2.6rem;}
+    .img-2 {order: 2;margin: 0;}
+    .img-2 > img {width: 90%;}
+    .line-1, .line-2 {font-size: 1.2rem; margin-right: 5rem;}
+    .see-how {margin-top: 1rem; justify-content: flex-start;}
+    .link {text-align: left; font-size: 1.2rem;}
+    article {margin: 0 42.5% 0 0; padding-left: 2.5rem;}
     blockquote {
         font-size: 1.05rem;
         margin-right: 1rem;
     }
-    .avatar-img > img {
-        width: 2.5rem;
-    }
+    .avatar-img > img {width: 2.5rem;}
     h3 {font-size: 0.95rem;}
     h4 {font-size: 0.7rem;}
     .part-2{
@@ -788,9 +653,7 @@ footer {
         text-align: left;
         padding: 6rem 4rem 3rem;
     }
-    .part-2 > section > h2 {
-        font-size: 2.2rem;
-    }
+    .part-2 > section > h2 {font-size: 2.2rem;}
     .part-2 > section > p {
         font-size: 1.15rem;
         margin-right: 3.7rem;
@@ -811,12 +674,8 @@ footer {
         padding-top: 6.5rem;
         padding-bottom: 3rem;
     }
-    .footer-logo {
-        margin-left: 2rem
-    }
-    .footer-logo > img {
-        width: 12rem;
-    }
+    .footer-logo {margin-left: 2rem}
+    .footer-logo > img {width: 12rem;}
     .footer-details {
         display: grid;
         grid-template-columns: 1.3fr 0.7fr 0.7fr 1fr;
